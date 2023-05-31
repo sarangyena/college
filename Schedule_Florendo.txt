@@ -1,0 +1,94 @@
+<html>
+    <head>
+        <title>Schedule_Florendo</title>
+    </head>
+    <body align="center">
+        <font size="5" face="Verdana">Technological University of the Philippines</font>
+        <br><font size="4" face="Verdana">College of Science</font>
+        <br><font size="3" face="Verdana">Bachelor of Science in Information System (BSIS)</font>
+        <br><p align="left" style="font-family: Verdana">Student Name: Edrian E. Florendo
+        <br>Student Number: TUPM-20-10572</p>
+        
+        <table border="1" style="font-family: Verdana; width: 100%; height: 70%;">
+            <tr>
+                <th colspan="6">Schedule of Classes</th>
+            </tr>
+            <tr bgcolor=#D6EEEE>
+                <th>Subject Code</th>
+                <th>Subject Description</th>
+                <th>Section</th>
+                <th>Days</th>
+                <th>Time</th>
+                <th>Professor Name</th>
+            </tr>
+            <tr align="center">
+                <td rowspan="2">CC312-M</td>
+                <td rowspan="2">Web Development</td>
+                <td rowspan="2" style="color: blue; font-weight: bold;">BSIS-NS-3C-M</td>
+                <td>MONDAY - LEC</td>
+                <td>3:00 pm - 5:00 pm</td>
+                <td rowspan="2">Edward N. Cruz</td>
+            </tr>
+            <tr align="center">
+                <td>THURSDAY - LAB</td>
+                <td>1:30 pm - 4:30 pm</td>
+            </tr>
+            <tr align="center" bgcolor=#D6EEEE>
+                <td>IS333-M</td>
+                <td>Financial Management Information Systems</td>
+                <td style="color: blue; font-weight: bold;">BSIS-NS-3C-M</td>
+                <td>WEDNESDAY</td>
+                <td>3:00 pm - 6:00 pm</td>
+                <td>Bernardino Roda</td>
+            </tr>
+            <tr align="center">
+                <td>IS393-M</td>
+                <td>Information Assurance and Security 1</td>
+                <td style="color: blue; font-weight: bold;">BSIS-NS-3C-M</td>
+                <td>THURSDAY</td>
+                <td>5:00 pm - 8:00 pm</td>
+                <td>Marvin James B. Alzola</td>
+            </tr>
+            <tr align="center" bgcolor=#D6EEEE>
+                <td>IS313-M</td>
+                <td>Systems Analysis and Design</td>
+                <td style="color: blue; font-weight: bold;">BSIS-NS-3C-M</td>
+                <td>TUESDAY</td>
+                <td>4:00 pm - 7:00 pm</td>
+                <td>Priscilla S. Bator</td>
+            </tr>
+            <tr align="center">
+                <td>IS373</td>
+                <td>Evaluation of Business Performance</td>
+                <td style="color: blue; font-weight: bold;">BSIS-NS-3C-M</td>
+                <td>MONDAY</td>
+                <td>11:00 am - 2:00 pm</td>
+                <td>Bernardino Roda</td>
+            </tr>
+            <tr align="center" bgcolor=#D6EEEE>
+                <td>ISE3-M</td>
+                <td>IS Professional Elective 3</td>
+                <td style="color: blue; font-weight: bold;">BSIS-NS-3C-M</td>
+                <td>TUESDAY</td>
+                <td>10:00 am - 1:00 pm</td>
+                <td>Nikko Ilano</td>
+            </tr>
+            <tr align="center">
+                <td>IS353-M</td>
+                <td>IS Project Management 1</td>
+                <td style="color: blue; font-weight: bold;">BSIS-NS-3C-M</td>
+                <td>MONDAY</td>
+                <td>7:00 am - 10:00 am</td>
+                <td>Regie Ellana</td>
+            </tr>
+            <tr align="center" bgcolor=#D6EEEE>
+                <td padding="16px">GEC3-M</td>
+                <td>The Contemporary World</td>
+                <td style="color: blue; font-weight: bold;">ID-2A-M</td>
+                <td>FRIDAY</td>
+                <td>8:00 am - 11:00 am</td>
+                <td>Mark Karrlou T. Esplana</td>
+            </tr>
+        </table>
+    </body>
+</html>

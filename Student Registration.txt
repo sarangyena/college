@@ -1,0 +1,6 @@
+Student Information: 
+Student Number: 69278
+Student Name: Ed
+Age: 19
+Address: manila
+Course: Bachelor of Science in Software Engineer (BSSE)

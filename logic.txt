@@ -1,0 +1,30 @@
+if customer pays within 10 days
+    then
+        give 5% discount
+        list as good credit standing
+    else 
+        if payment is received within 30 days
+            if payment amount > $350
+                list as good credit standing
+            end if
+        else 
+            if payment is received after 30 days from the invoice date
+                if within 60 days of the invoice date
+                    give 3% penalty is applied to the amount due
+                end if
+            end if
+        else
+            if payment is received after 60 days from the invoice date
+                if within 1 year of the invoice date
+                    give 6% penalty is applied to the amount due
+                    list as poor credit standing
+                end if
+            end if 
+        else
+            if balance remains outstanding for more than 1 year
+                give 20% penalty is applied to the balance
+                list as poor credit standing
+            end if 
+        end if
+    end if
+end if

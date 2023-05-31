@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <div class="container" style="width: 500px; margin: auto; border: 1px solid black; padding: 0 16px 8px 16px;">
+        <div class="container" style="border-bottom: 1px solid black;">
+            <form>
+                <p>First Name: <input type="text" name="fname" size="10">
+                    Last Name: <input type="text" name="lname" size="10">
+                </p>
+                <p>Address #1: <input type="text" name="address1"></p>
+                <p>Address #2: <input type="text" name="address2"></p>
+                <p>City: <input type="text" name="city" size="10">
+                    State: <input type="text" name="state" size="10">
+                    Zip: <input type="text" name="zip" size="10">
+                </p>
+            </form>
+        </div>
+        <div class="container" style="border-bottom: 1px solid black;">
+            <form>
+                <p>Product: 
+                    <input list="products" name="product">
+                    <datalist id="products">
+                        <option value="Antivirus"></option>
+                        <option value="Driver Booster"></option>
+                        <option value="Microsoft 365"></option>
+                        <option value="Screen Recorder"></option>
+                        <option value="System Cleaner"></option>
+                    </datalist>
+                </p>
+                <p>Date Purchased: <input type="date" name="purchased"></p>
+                <table>
+                    <tr>
+                        <td rowspan="5" style="vertical-align: baseline;">Used For:</td>
+                        <td><input type="radio" name="used" value="Home">
+                            <label for="home">Home<br></label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio" name="used" value="Business">
+                            <label for="business">Business<br></label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio" name="used" value="Government">
+                            <label for="government">Government<br></label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio" name="used" value="Education">
+                            <label for="education">Education<br></label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio" name="used" value="Other">
+                            <label for="other">Other<br></label><br></td>
+                    </tr>
+                    <tr>
+                        <td rowspan="4" style="vertical-align: baseline;">System (check <br>all that apply): </td>
+                        <td><input type="checkbox" name="system" value="Windows">
+                            <label for="windows">Windows<br></label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="system" value="Macintosh">
+                            <label for="macintosh">Macintosh<br></label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="system" value="UNIX">
+                            <label for="unix">UNIX<br></label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="system" value="Other">
+                            <label for="other">Other<br></label></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <div class="container" style="padding-top: 8px;">
+            <form>
+                <table>
+                    <tr>
+                        <td rowspan="2" style="vertical-align: baseline;">Comments?: </td>
+                        <td><textarea name="comment" rows="4" cols="50"></textarea><br></td>
+                    </tr>
+                    <tr>
+                        <td><button type="button">Send Registration</button>
+                            <button type="button">Cancel</button></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
